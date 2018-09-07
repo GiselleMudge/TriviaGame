@@ -1,0 +1,239 @@
+.jumbotron {
+    height: 100%;   
+    color: red;
+    background: none;
+    opacity: 1;
+    margin-top: 50px;
+    margin-left: 60%;
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .btn {
+    color: red;
+    width:300px;
+    padding:15px;
+    font-size: 20px;
+    background-color: greenyellow;
+  
+  }
+  .main-button-container {
+    max-width: 450px;
+    margin-left: -30%;
+  }
+
+  #mainArea {
+    margin-top:10px;
+    max-width: 50%;
+    margin-left: auto;
+    color: red;
+    font-size: 26px;
+    height: 500px;;
+  }
+  .timer-p {
+    margin-top: 50px;
+    font-size:24px;
+  }
+  
+  p.text-center {
+    font-size:24px;
+    margin-left: -30%;
+  }
+  .answer:hover {
+    background: yellowgreen;
+  }
+
+  p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: -50%; 
+    }
+  .answer {
+    height: 55px;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    margin-left: -80%;
+    border-radius: 4px;
+    opacity: .5;
+
+  }
+
+  img {
+    margin-top: 30px;
+    width:100%;
+    border-radius: 25px;
+    margin-left: -50%
+  }
+  .img-wrong {
+    border-radius: 25px;
+    margin-top: 40px;
+    width:100%;
+    margin-left: -50%
+    
+  }
+  
+  .first-answer {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+  .summary-correct {
+    margin-top: 40px;
+  }
+  
+  body {
+    background-image: url(http://www.avpgalaxy.net/wordpress/wp-content/uploads/2011/06/p2-ship02.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 30px;
+    font-family: 'Wallpoet', cursive;
+  }
+
+  /* Smallest Devices setting < 576px) */
+  @media (max-width: 575px) { 
+    .timer-p {
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+    body {
+      background-image: url(http://www.avpgalaxy.net/wordpress/wp-content/uploads/2011/06/p2-ship02.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 300;
+    }
+
+    img, .img-wrong, .answer {
+      margin-top: 30px;
+      width:120%;
+      text-align: left;
+      
+    }
+
+   .btn {
+      margin: auto;
+      width: 100%;
+      color: red;
+      text-align: center;
+      font-size: 10px;
+      background-color: greenyellow;
+    }
+
+    .jumbotron, #mainArea, .main-button-container {
+      margin: auto;
+      width: 100%;
+      color: red;
+      text-align: center;
+      font-size: 20px;
+    }
+   }
+  
+  /* Setting for small devices >= 576px */
+  @media (min-width: 576px) and (max-width: 767px) {  
+  body {
+    background-image: url(http://www.avpgalaxy.net/wordpress/wp-content/uploads/2011/06/p2-ship02.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  h1 {
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+  p {
+      font-size: 23px;
+      font-weight: 300;
+    }
+
+  img, .img-wrong, .answer {
+    margin-top: 30px;
+    width:120%;
+    text-align: left;
+    
+  }
+ .btn {
+    width:100%;
+    color: red;
+    background-color: greenyellow;
+  }
+  .jumbotron, #mainArea, .main-button-container {
+    margin: auto;
+    width: 100%;
+    color: red;
+    text-align: center;
+    font-size: 20px;
+
+
+  } 
+}
+  
+  /*Medium devices setting >= 768px*/
+  @media (min-width: 768px) and (max-width: 991px) {  
+  body {
+    background-image: url(http://www.avpgalaxy.net/wordpress/wp-content/uploads/2011/06/p2-ship02.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  img, .img-wrong, .answer {
+    margin-top: 30px;
+    width:120%;
+    text-align: left;
+    /* border-radius: 5px; */
+    
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+ .btn {
+    width:100%;
+    color: red;
+    background-color: greenyellow;
+  }
+  .jumbotron, #mainArea, .main-button-container {
+    margin: auto;
+    width: 100%;
+    color: red;
+    text-align: center;
+    font-size: 22px;
+   
+
+  } 
+}
